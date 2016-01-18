@@ -19,6 +19,15 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="databaseProcess" Type="Folder">
+			<Item Name="CreateDatabase.vi" Type="VI" URL="../CreateDatabase.vi"/>
+			<Item Name="CreateTable.vi" Type="VI" URL="../CreateTable.vi"/>
+			<Item Name="dataCommon.vi" Type="VI" URL="../dataCommon.vi"/>
+			<Item Name="dataUserIn.vi" Type="VI" URL="../dataUserIn.vi"/>
+			<Item Name="dataUserOut.vi" Type="VI" URL="../dataUserOut.vi"/>
+			<Item Name="ScurrDataIn.vi" Type="VI" URL="../ScurrDataIn.vi"/>
+			<Item Name="ScurrDataOut.vi" Type="VI" URL="../ScurrDataOut.vi"/>
+		</Item>
 		<Item Name="changeValue.vi" Type="VI" URL="../changeValue.vi"/>
 		<Item Name="checkData.vi" Type="VI" URL="../checkData.vi"/>
 		<Item Name="DataProcess.vi" Type="VI" URL="../DataProcess.vi"/>
@@ -33,6 +42,16 @@
 		<Item Name="saveImage.vi" Type="VI" URL="../saveImage.vi"/>
 		<Item Name="StrProcess.vi" Type="VI" URL="../StrProcess.vi"/>
 		<Item Name="依赖关系" Type="Dependencies">
+			<Item Name="user.lib" Type="Folder">
+				<Item Name="ADO Connection Close.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Close.vi"/>
+				<Item Name="ADO Connection Create.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Create.vi"/>
+				<Item Name="ADO Connection Execute.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Execute.vi"/>
+				<Item Name="ADO Connection Open.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Open.vi"/>
+				<Item Name="ADO Recordset Destroy.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Recordset/ADO Recordset Destroy.vi"/>
+				<Item Name="ADO Recordset GetString.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Recordset/ADO Recordset GetString.vi"/>
+				<Item Name="SQL Execute.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/SQL Execute.vi"/>
+				<Item Name="SQL Fetch Data (GetString).vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/SQL Fetch Data (GetString).vi"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -65,10 +84,14 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="GOOP Object Repository Method.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Method.ctl"/>
+				<Item Name="GOOP Object Repository Statistics.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Statistics.ctl"/>
+				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/database/NI_Database_API.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
