@@ -28,11 +28,14 @@
 			<Item Name="dataUserIn.vi" Type="VI" URL="../dataUserIn.vi"/>
 			<Item Name="dataUserOut.vi" Type="VI" URL="../dataUserOut.vi"/>
 			<Item Name="HowManyColums.vi" Type="VI" URL="../HowManyColums.vi"/>
+			<Item Name="OpenMainDB.vi" Type="VI" URL="../OpenMainDB.vi"/>
+			<Item Name="ReadParams.vi" Type="VI" URL="../ReadParams.vi"/>
 			<Item Name="ScurrDataIn.vi" Type="VI" URL="../ScurrDataIn.vi"/>
 			<Item Name="ScurrDataOut.vi" Type="VI" URL="../ScurrDataOut.vi"/>
 			<Item Name="SelectTrueAddress.vi" Type="VI" URL="../SelectTrueAddress.vi"/>
 			<Item Name="StartDatabase.vi" Type="VI" URL="../StartDatabase.vi"/>
 			<Item Name="TrueOrFalse.vi" Type="VI" URL="../TrueOrFalse.vi"/>
+			<Item Name="WriteParams.vi" Type="VI" URL="../WriteParams.vi"/>
 		</Item>
 		<Item Name="login" Type="Folder">
 			<Item Name="loginProgram.vi" Type="VI" URL="../loginProgram.vi"/>
