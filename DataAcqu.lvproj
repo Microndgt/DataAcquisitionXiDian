@@ -1,6 +1,8 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="14008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
+	<Property Name="varPersistentID:{B434AA41-5262-4370-B229-CFEAFBB3D4C4}" Type="Ref">/我的电脑/全局变量.lvlib/采集时间</Property>
+	<Property Name="varPersistentID:{CD36F421-49EA-4775-B84E-74C2A766D5BC}" Type="Ref">/我的电脑/全局变量.lvlib/实验类型</Property>
 	<Item Name="我的电脑" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -30,6 +32,7 @@
 			<Item Name="HowManyColums.vi" Type="VI" URL="../HowManyColums.vi"/>
 			<Item Name="OpenMainDB.vi" Type="VI" URL="../OpenMainDB.vi"/>
 			<Item Name="ReadParams.vi" Type="VI" URL="../ReadParams.vi"/>
+			<Item Name="ReadTestType.vi" Type="VI" URL="../ReadTestType.vi"/>
 			<Item Name="ScurrDataIn.vi" Type="VI" URL="../ScurrDataIn.vi"/>
 			<Item Name="ScurrDataOut.vi" Type="VI" URL="../ScurrDataOut.vi"/>
 			<Item Name="SelectTrueAddress.vi" Type="VI" URL="../SelectTrueAddress.vi"/>
@@ -38,6 +41,8 @@
 			<Item Name="WriteParams.vi" Type="VI" URL="../WriteParams.vi"/>
 		</Item>
 		<Item Name="login" Type="Folder">
+			<Item Name="InitConfig.vi" Type="VI" URL="../InitConfig.vi"/>
+			<Item Name="JumpToAnotherVI.vi" Type="VI" URL="../JumpToAnotherVI.vi"/>
 			<Item Name="loginProgram.vi" Type="VI" URL="../loginProgram.vi"/>
 		</Item>
 		<Item Name="changeValue.vi" Type="VI" URL="../changeValue.vi"/>
@@ -52,7 +57,9 @@
 		<Item Name="menu1.rtm" Type="Document" URL="../menu1.rtm"/>
 		<Item Name="QMH Fundamentals - Message Cluster.ctl" Type="VI" URL="../QMH Fundamentals - Message Cluster.ctl"/>
 		<Item Name="saveImage.vi" Type="VI" URL="../saveImage.vi"/>
+		<Item Name="SetParamsPeriod.vi" Type="VI" URL="../SetParamsPeriod.vi"/>
 		<Item Name="StrProcess.vi" Type="VI" URL="../StrProcess.vi"/>
+		<Item Name="全局变量.lvlib" Type="Library" URL="../全局变量.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="ADO Connection Close.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Close.vi"/>
