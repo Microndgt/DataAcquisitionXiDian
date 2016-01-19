@@ -27,11 +27,15 @@
 			<Item Name="dataCommon.vi" Type="VI" URL="../dataCommon.vi"/>
 			<Item Name="dataUserIn.vi" Type="VI" URL="../dataUserIn.vi"/>
 			<Item Name="dataUserOut.vi" Type="VI" URL="../dataUserOut.vi"/>
+			<Item Name="HowManyColums.vi" Type="VI" URL="../HowManyColums.vi"/>
 			<Item Name="ScurrDataIn.vi" Type="VI" URL="../ScurrDataIn.vi"/>
 			<Item Name="ScurrDataOut.vi" Type="VI" URL="../ScurrDataOut.vi"/>
 			<Item Name="SelectTrueAddress.vi" Type="VI" URL="../SelectTrueAddress.vi"/>
 			<Item Name="StartDatabase.vi" Type="VI" URL="../StartDatabase.vi"/>
 			<Item Name="TrueOrFalse.vi" Type="VI" URL="../TrueOrFalse.vi"/>
+		</Item>
+		<Item Name="login" Type="Folder">
+			<Item Name="loginProgram.vi" Type="VI" URL="../loginProgram.vi"/>
 		</Item>
 		<Item Name="changeValue.vi" Type="VI" URL="../changeValue.vi"/>
 		<Item Name="checkData.vi" Type="VI" URL="../checkData.vi"/>
@@ -40,7 +44,7 @@
 		<Item Name="ftphelp.vi" Type="VI" URL="../ftphelp.vi"/>
 		<Item Name="FTPTools.vi" Type="VI" URL="../FTPTools.vi"/>
 		<Item Name="Instru.vi" Type="VI" URL="../Instru.vi"/>
-		<Item Name="login.vi" Type="VI" URL="../login.vi"/>
+		<Item Name="loginLimit.vi" Type="VI" URL="../loginLimit.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="menu1.rtm" Type="Document" URL="../menu1.rtm"/>
 		<Item Name="QMH Fundamentals - Message Cluster.ctl" Type="VI" URL="../QMH Fundamentals - Message Cluster.ctl"/>
@@ -254,7 +258,7 @@
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/login.vi</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/loginLimit.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">15</Property>
