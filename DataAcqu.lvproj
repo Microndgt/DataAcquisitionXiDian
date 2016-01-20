@@ -24,6 +24,7 @@
 		<Item Name="databaseProcess" Type="Folder">
 			<Item Name="AcurrDataIn.vi" Type="VI" URL="../AcurrDataIn.vi"/>
 			<Item Name="AcuurDataOut.vi" Type="VI" URL="../AcuurDataOut.vi"/>
+			<Item Name="ConnectMainDB.vi" Type="VI" URL="../ConnectMainDB.vi"/>
 			<Item Name="CreateDatabase.vi" Type="VI" URL="../CreateDatabase.vi"/>
 			<Item Name="CreateTable.vi" Type="VI" URL="../CreateTable.vi"/>
 			<Item Name="dataCommon.vi" Type="VI" URL="../dataCommon.vi"/>
@@ -33,6 +34,7 @@
 			<Item Name="OpenMainDB.vi" Type="VI" URL="../OpenMainDB.vi"/>
 			<Item Name="ReadParams.vi" Type="VI" URL="../ReadParams.vi"/>
 			<Item Name="ReadTestType.vi" Type="VI" URL="../ReadTestType.vi"/>
+			<Item Name="ReadVarientData.vi" Type="VI" URL="../ReadVarientData.vi"/>
 			<Item Name="ScurrDataIn.vi" Type="VI" URL="../ScurrDataIn.vi"/>
 			<Item Name="ScurrDataOut.vi" Type="VI" URL="../ScurrDataOut.vi"/>
 			<Item Name="SelectTrueAddress.vi" Type="VI" URL="../SelectTrueAddress.vi"/>
@@ -42,6 +44,7 @@
 		</Item>
 		<Item Name="login" Type="Folder">
 			<Item Name="InitConfig.vi" Type="VI" URL="../InitConfig.vi"/>
+			<Item Name="InitSelfCheck.vi" Type="VI" URL="../InitSelfCheck.vi"/>
 			<Item Name="JumpToAnotherVI.vi" Type="VI" URL="../JumpToAnotherVI.vi"/>
 			<Item Name="loginProgram.vi" Type="VI" URL="../loginProgram.vi"/>
 		</Item>
@@ -62,14 +65,14 @@
 		<Item Name="全局变量.lvlib" Type="Library" URL="../全局变量.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
-				<Item Name="ADO Connection Close.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Close.vi"/>
-				<Item Name="ADO Connection Create.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Create.vi"/>
-				<Item Name="ADO Connection Execute.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Execute.vi"/>
-				<Item Name="ADO Connection Open.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Connection/ADO Connection Open.vi"/>
-				<Item Name="ADO Recordset Destroy.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Recordset/ADO Recordset Destroy.vi"/>
-				<Item Name="ADO Recordset GetString.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/Recordset/ADO Recordset GetString.vi"/>
-				<Item Name="SQL Execute.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/SQL Execute.vi"/>
-				<Item Name="SQL Fetch Data (GetString).vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL/LabSQL ADO functions/SQL Fetch Data (GetString).vi"/>
+				<Item Name="ADO Connection Close.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Close.vi"/>
+				<Item Name="ADO Connection Create.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Create.vi"/>
+				<Item Name="ADO Connection Execute.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Execute.vi"/>
+				<Item Name="ADO Connection Open.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Connection/ADO Connection Open.vi"/>
+				<Item Name="ADO Recordset Destroy.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Recordset/ADO Recordset Destroy.vi"/>
+				<Item Name="ADO Recordset GetString.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/Recordset/ADO Recordset GetString.vi"/>
+				<Item Name="SQL Execute.vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/SQL Execute.vi"/>
+				<Item Name="SQL Fetch Data (GetString).vi" Type="VI" URL="/&lt;userlib&gt;/LabSQL ADO functions/SQL Fetch Data (GetString).vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
