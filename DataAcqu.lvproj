@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="14008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
+	<Property Name="varPersistentID:{6C91413E-0AEB-4A87-AED5-9B80A36C08FF}" Type="Ref">/我的电脑/全局变量.lvlib/自动测试</Property>
 	<Property Name="varPersistentID:{B434AA41-5262-4370-B229-CFEAFBB3D4C4}" Type="Ref">/我的电脑/全局变量.lvlib/采集时间</Property>
 	<Property Name="varPersistentID:{B63A28FD-42E6-4C7D-AB44-F37CB046372B}" Type="Ref">/我的电脑/全局变量.lvlib/温度</Property>
 	<Property Name="varPersistentID:{CD36F421-49EA-4775-B84E-74C2A766D5BC}" Type="Ref">/我的电脑/全局变量.lvlib/实验类型</Property>
