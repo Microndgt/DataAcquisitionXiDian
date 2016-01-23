@@ -48,6 +48,7 @@
 			<Item Name="InitConfig.vi" Type="VI" URL="../InitConfig.vi"/>
 			<Item Name="InitSelfCheck.vi" Type="VI" URL="../InitSelfCheck.vi"/>
 			<Item Name="JumpToAnotherVI.vi" Type="VI" URL="../JumpToAnotherVI.vi"/>
+			<Item Name="JumpToNext.vi" Type="VI" URL="../JumpToNext.vi"/>
 			<Item Name="loginProgram.vi" Type="VI" URL="../loginProgram.vi"/>
 		</Item>
 		<Item Name="changeValue.vi" Type="VI" URL="../changeValue.vi"/>
@@ -57,6 +58,7 @@
 		<Item Name="ftphelp.vi" Type="VI" URL="../ftphelp.vi"/>
 		<Item Name="FTPTools.vi" Type="VI" URL="../FTPTools.vi"/>
 		<Item Name="Instru.vi" Type="VI" URL="../Instru.vi"/>
+		<Item Name="InstrumentsOrder.vi" Type="VI" URL="../InstrumentsOrder.vi"/>
 		<Item Name="loginLimit.vi" Type="VI" URL="../loginLimit.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="menu1.rtm" Type="Document" URL="../menu1.rtm"/>
