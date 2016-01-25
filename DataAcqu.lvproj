@@ -58,10 +58,14 @@
 		<Item Name="ftphelp.vi" Type="VI" URL="../ftphelp.vi"/>
 		<Item Name="FTPTools.vi" Type="VI" URL="../FTPTools.vi"/>
 		<Item Name="Instru.vi" Type="VI" URL="../Instru.vi"/>
+		<Item Name="INSTRUMENTORDERS.vi" Type="VI" URL="../INSTRUMENTORDERS.vi"/>
+		<Item Name="INSTRUMENTORDERSVotage.vi" Type="VI" URL="../INSTRUMENTORDERSVotage.vi"/>
+		<Item Name="INSTRUMENTORDERSVotageAC5_6.vi" Type="VI" URL="../INSTRUMENTORDERSVotageAC5_6.vi"/>
 		<Item Name="InstrumentsOrder.vi" Type="VI" URL="../InstrumentsOrder.vi"/>
 		<Item Name="loginLimit.vi" Type="VI" URL="../loginLimit.vi"/>
 		<Item Name="Main.vi" Type="VI" URL="../Main.vi"/>
 		<Item Name="menu1.rtm" Type="Document" URL="../menu1.rtm"/>
+		<Item Name="printScreen.vi" Type="VI" URL="../printScreen.vi"/>
 		<Item Name="QMH Fundamentals - Message Cluster.ctl" Type="VI" URL="../QMH Fundamentals - Message Cluster.ctl"/>
 		<Item Name="saveImage.vi" Type="VI" URL="../saveImage.vi"/>
 		<Item Name="SetParamsPeriod.vi" Type="VI" URL="../SetParamsPeriod.vi"/>
@@ -130,6 +134,7 @@
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
@@ -276,6 +281,186 @@
 				<Property Name="TgtF_productName" Type="Str">DataAcqu</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{F5B85935-8F65-4EFD-BC93-ECADF3E863C4}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">DataAcqu.exe</Property>
+			</Item>
+			<Item Name="DataAcqu_v1" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{D18F59C5-DB29-4161-9BF8-3CA2838BC126}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{24EFEFF4-64E0-4661-A6AF-B17188C2A5C5}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{52332226-F918-4123-87A7-DDF7EA93F895}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">DataAcqu_v1</Property>
+				<Property Name="Bld_defaultLanguage" Type="Str">ChineseS</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/DataAcqu_v1</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{122E94FD-F4EE-4447-8FD1-C43A9F511604}</Property>
+				<Property Name="Bld_version.build" Type="Int">12</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">DataAcqu_v1.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/DataAcqu_v1/DataAcqu_v1.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">支持目录</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/DataAcqu_v1/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[0]" Type="Str">{B154DD1E-37C0-4F9C-A199-2A0FD03C643C}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[1]" Type="Str">{78F2B3D7-6B4E-47B6-9F54-51D5192358D6}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[10]" Type="Str">{B946E968-3384-48E3-963F-033139B88593}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[11]" Type="Str">{7B78CB1C-DB89-481C-8A7C-AB44A54D6DEE}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[12]" Type="Str">{5AA0E21D-84D5-4399-ADDF-903EF6DB3A4B}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[13]" Type="Str">{7074E7E5-3339-4197-A50F-1D438CD3B029}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[14]" Type="Str">{74A62C16-B514-4803-ABD1-2E8CF0AB728B}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[15]" Type="Str">{FF33BD75-43E5-4A2D-9F58-9770E85A49FB}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[16]" Type="Str">{547D3B60-3214-4790-8375-9A645F54A553}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[2]" Type="Str">{505A20F7-97B6-40F7-B322-F2400EFCAFE5}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[3]" Type="Str">{4066D0D7-DD8B-4D13-B2DA-4B4269B08396}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[4]" Type="Str">{5018DCD1-D6DA-469A-92D2-32ED6737A925}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[5]" Type="Str">{E1618BF7-B6AD-4497-B561-DFD9D2FB3465}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[6]" Type="Str">{B7B76D6D-DECF-42C1-A8D1-D8F7120A56E4}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[7]" Type="Str">{50AE4E53-26BF-44C3-B796-1C7188343B67}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[8]" Type="Str">{D09D67FF-07E3-46DE-9217-F8FDE271A0A4}</Property>
+				<Property Name="Exe_actXinfo_enumCLSID[9]" Type="Str">{A69264CE-832A-4730-91A4-60682F945DB5}</Property>
+				<Property Name="Exe_actXinfo_enumCLSIDsCount" Type="Int">17</Property>
+				<Property Name="Exe_actXinfo_majorVersion" Type="Int">5</Property>
+				<Property Name="Exe_actXinfo_minorVersion" Type="Int">5</Property>
+				<Property Name="Exe_actXinfo_objCLSID[0]" Type="Str">{F61BFACD-29C8-4D48-8A29-3C66E4BD61D0}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[1]" Type="Str">{7813EF12-0147-4A5D-9144-62C8FE12DD4B}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[10]" Type="Str">{B7E5E879-54FC-426E-8ABE-5CA6276767CB}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[11]" Type="Str">{353EF983-53D2-4EA1-B4BD-2C1F7E217593}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[12]" Type="Str">{1E5B8A51-A3F6-43D4-9FC8-2C417841AEB5}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[13]" Type="Str">{74146CD3-5E49-4266-8A9A-5044023AF4F2}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[2]" Type="Str">{3409337D-F1BB-4873-BAAE-C116631CE347}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[3]" Type="Str">{B4FC7D0F-2B11-4C9F-8D1E-8DFDE4D7D0A3}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[4]" Type="Str">{ED5D00FB-301D-4879-8B8F-889737E3C24E}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[5]" Type="Str">{85A56F39-475B-4742-9332-675B4BDDC948}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[6]" Type="Str">{5501F258-555B-4709-AE9C-075C17D55235}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[7]" Type="Str">{90912649-0C88-43CC-AAA5-08D9258E4FD6}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[8]" Type="Str">{966A4B1B-0A4F-4B93-8251-0852216A5348}</Property>
+				<Property Name="Exe_actXinfo_objCLSID[9]" Type="Str">{1B96F3EA-FE34-4B9B-808C-83567ED2EB7B}</Property>
+				<Property Name="Exe_actXinfo_objCLSIDsCount" Type="Int">14</Property>
+				<Property Name="Exe_actXinfo_progIDPrefix" Type="Str">DataAcquV1</Property>
+				<Property Name="Exe_actXServerName" Type="Str">DataAcquV1</Property>
+				<Property Name="Exe_actXServerNameGUID" Type="Str"></Property>
+				<Property Name="Source[0].itemID" Type="Str">{AD51CF08-CBDF-4080-AD84-3CBD7EE0CAA3}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/我的电脑/login/loginProgram.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/我的电脑/INSTRUMENTORDERS.vi</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].type" Type="Str">VI</Property>
+				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/我的电脑/INSTRUMENTORDERSVotage.vi</Property>
+				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[11].type" Type="Str">VI</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/我的电脑/InstrumentsOrder.vi</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[12].type" Type="Str">VI</Property>
+				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/我的电脑/loginLimit.vi</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[13].type" Type="Str">VI</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/我的电脑/Main.vi</Property>
+				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[14].type" Type="Str">VI</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/我的电脑/menu1.rtm</Property>
+				<Property Name="Source[15].lvfile" Type="Bool">true</Property>
+				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[16].itemID" Type="Ref">/我的电脑/QMH Fundamentals - Message Cluster.ctl</Property>
+				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[16].type" Type="Str">VI</Property>
+				<Property Name="Source[17].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[17].itemID" Type="Ref">/我的电脑/saveImage.vi</Property>
+				<Property Name="Source[17].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[17].type" Type="Str">VI</Property>
+				<Property Name="Source[18].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[18].itemID" Type="Ref">/我的电脑/SetParamsPeriod.vi</Property>
+				<Property Name="Source[18].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[18].type" Type="Str">VI</Property>
+				<Property Name="Source[19].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[19].itemID" Type="Ref">/我的电脑/StrProcess.vi</Property>
+				<Property Name="Source[19].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[19].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyInclusion" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/我的电脑/databaseProcess</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="Source[20].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[20].itemID" Type="Ref">/我的电脑/全局变量.lvlib</Property>
+				<Property Name="Source[20].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[20].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[20].type" Type="Str">Library</Property>
+				<Property Name="Source[21].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[21].itemID" Type="Ref">/我的电脑/login/InitConfig.vi</Property>
+				<Property Name="Source[21].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[21].type" Type="Str">VI</Property>
+				<Property Name="Source[22].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[22].itemID" Type="Ref">/我的电脑/login/InitSelfCheck.vi</Property>
+				<Property Name="Source[22].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[22].type" Type="Str">VI</Property>
+				<Property Name="Source[23].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[23].itemID" Type="Ref">/我的电脑/login/JumpToAnotherVI.vi</Property>
+				<Property Name="Source[23].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[23].type" Type="Str">VI</Property>
+				<Property Name="Source[24].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[24].itemID" Type="Ref">/我的电脑/login/JumpToNext.vi</Property>
+				<Property Name="Source[24].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[24].type" Type="Str">VI</Property>
+				<Property Name="Source[25].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[25].itemID" Type="Ref">/我的电脑/INSTRUMENTORDERSVotageAC5_6.vi</Property>
+				<Property Name="Source[25].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[25].type" Type="Str">VI</Property>
+				<Property Name="Source[26].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[26].itemID" Type="Ref">/我的电脑/printScreen.vi</Property>
+				<Property Name="Source[26].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[26].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/我的电脑/changeValue.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/我的电脑/checkData.vi</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/我的电脑/DataProcess.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/我的电脑/DataTrans.vi</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/我的电脑/ftphelp.vi</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].type" Type="Str">VI</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/我的电脑/FTPTools.vi</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/我的电脑/Instru.vi</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">27</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">DataAcqu_v1</Property>
+				<Property Name="TgtF_internalName" Type="Str">DataAcqu_v1</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">版权 2002 </Property>
+				<Property Name="TgtF_productName" Type="Str">DataAcqu_v1</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{B59A3CFA-0D58-4AFE-974B-5FEE18DBD752}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">DataAcqu_v1.exe</Property>
 			</Item>
 		</Item>
 	</Item>
